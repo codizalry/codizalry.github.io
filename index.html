@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Ryan Codizal">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>Ryan's Portfolio</title>
+  </head>
+  <body>
+
+    <!--Naigation Bar -->
+      <nav id="main-nav" >
+        <div class="container">
+          <div class="topnav" >
+            <a href="#portfolio-showcase" ><img src="images/RC-Logo.png" alt="Ryan Codizal" data-aos="fade-down"> </a>
+            <ul id="nav-menu" >
+              <li class="active-to-show" data-aos="fade-down" data-aos-delay="100"><a href="#portfolio-showcase" class="active mobile-view-nav">Home</a></li>
+              <li class="active-to-show about-to-show" data-aos="fade-down" data-aos-delay="150"><a href="#about-area" class="mobile-view-nav">About</a></li>
+              <li class="active-to-show" data-aos="fade-down" data-aos-delay="200"><a href="#skills-area" class="mobile-view-nav">Skills</a></li>
+              <li class="active-to-show" data-aos="fade-down" data-aos-delay="250"><a href="#portfolio-area" class="mobile-view-nav">Portfolio</a></li>
+              <li class="active-to-show" data-aos="fade-down" data-aos-delay="300"><a href="#contact-area" class="mobile-view-nav">Contact</a></li>
+            </ul>
+              <i class="fa fa-bars fa-1x navBtn" data-aos="fade-down" data-aos-delay="200" onclick="openNav()"></i>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Showcase profile -->
+      <section id="portfolio-showcase" class="portfolio-showcase-animate">
+        <div class="container-inside">
+          <div class="text-design w3-animate-opacity">
+        <p data-aos="fade-right" data-aos-delay="700"><span class="text-design-intro">Hello, my name is</span><br><span class="text-design-name">Ryan Codizal</span><br><span class="text-design-happen">And I'm a aspiring <u>Web Developer</u></span></p>
+        <h6 class="about-to-show"><a href="#about-area" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">&#171;</a></h6>
+        <img src="images/Picture1.png" alt="" data-aos="fade-right" data-aos-delay="550">
+        <h4 class="btn-download download-cv" data-aos="fade-up" data-aos-delay="1000"><a href="file/RYAN DINAMARCA CODIZAL - Web Development.pdf" target="_blank" download> Download CV</a></h4>
+        <span class="showcase-icon" ><a href="https://www.facebook.com/codizalry" target="_blank"><i class="fa fa-facebook showcase-icon-fb"></i></a><a href="https://www.twitter.com/codizalry" target="_blank"> <i class="fa fa-twitter showcase-icon-twitter"></i></a> </span>
+        </div>
+      </div>
+      </section>
+
+      <!-- About profile -->
+      <section id="about-area" >
+        <div class="container-inside">
+            <h2>About me</h2>
+          <div class="about-data" >
+          <div class="col-about" data-aos="fade-right">
+            <figure>
+            <img src="images/about1.jpg" alt="Profile">
+            </figure>
+          </div>
+          <div class="col-about" data-aos="fade-left">
+            <h6>I'am Ryan a Aspiring <span>Web Developer</span></h6>
+            <p>I graduated from Rizal Technological University with B.S in Information and Communication Technology. I build projects just to tickle my brain and to be challenge in terms of designing also in logic, Coding is challenging but it was really fun and most importantly I enjoy it.<br>Most of my free time I’m just watching some movies/series/vlogs, doing workout, listening to music or playing games (Computer,Mobile or Console).</p>
+              <div class="about-icon">
+                <div class="about-icon-data">
+            <a href="https://https://github.com/codizalry" target="_blank" data-aos="zoom-in-up" data-aos-delay="650"><i class="fa fa-github hover-icon" data-hover="hover-1"></i></a>
+              <span class="about-icon-details" id="hover-1">Git Hub</span>
+            </div>
+            <div class="about-icon-data">
+              <a href="#" target="_blank" data-aos="zoom-in-up" data-aos-delay="700"><i class="fa fa-linkedin-square hover-icon" data-hover="hover-2"></i></a>
+              <span class="about-icon-details hover-2" id="hover-2">Linkedin</span>
+            </div>
+          <div class="about-icon-data">
+          <a href="resume/index.html" target="_blank" data-aos="zoom-in-up" data-aos-delay="750"><i class="fa fa-file hover-icon" data-hover="hover-3"></i></a>
+          <span class="about-icon-details hover-3" id="hover-3">Resume</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Skills profile -->
+      <section id="skills-area">
+          <h2>Skills</h2>
+        <div class="container-inside">
+            <div class="skills-data">
+              <div class="col-skill" data-aos="fade-right">
+                <h3>Development</h3>
+                <ul>
+                  <li data-aos="zoom-in" data-aos-delay="500">HTML</li>
+                  <li data-aos="zoom-in" data-aos-delay="600">CSS</li>
+                  <li data-aos="zoom-in" data-aos-delay="700">JavaScript</li>
+                  <li data-aos="zoom-in" data-aos-delay="800">Bootstrap</li>
+                  <li data-aos="zoom-in" data-aos-delay="900">jQuery</li>
+                  <li data-aos="zoom-in" data-aos-delay="1000">WordPress</li>
+                </ul>
+                <h3>Design</h3>
+                <ul>
+                  <li data-aos="zoom-in" data-aos-delay="500">Adobe Photoshop</li>
+                </ul>
+                <h3>Future/Plan to Develop</h3>
+                <ul>
+                  <li data-aos="zoom-in" data-aos-delay="500">SASS/SCSS</li>
+                  <li data-aos="zoom-in" data-aos-delay="600">React JS</li>
+                  <li data-aos="zoom-in" data-aos-delay="700">Vue.Js</li>
+                  <li data-aos="zoom-in" data-aos-delay="800">AJAX</li>
+                </ul>
+              </div>
+              <div class="col-skill" data-aos="fade-left">
+                <img src="images/image-skill.png" alt="Skill">
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Portfolio profile -->
+      <section id="portfolio-area">
+        <div class="container-inside">
+          <h2>Portfolio</h2>
+          <div class="portfolio-data">
+            <div class="projects" data-aos="fade-down">
+              <img src="images/portfolio1.jpg" alt="AzulSpa">
+              <div class="portfolio-link" >
+                <a href="#portfolio-area" data-modal="modalAzul" class="portfolio-link-name" ><i class="fa fa-eye portfolio-icon"></i><br>View Details</a>
+              </div>
+            </div>
+            <div class="projects" data-aos="fade-up">
+              <img src="images/portfolio2.jpg" alt="Cartoon Clothing">
+              <div class="portfolio-link">
+                <a href="#portfolio-area" data-modal="modalEcom" class="portfolio-link-name "><i class="fa fa-eye portfolio-icon"></i><br>View Details</a>
+              </div>
+            </div>
+            <div class="projects" data-aos="fade-down">
+              <img src="images/portfolio3.jpg" alt="Genshin Impact">
+              <div class="portfolio-link" >
+                <a href="#portfolio-area" data-modal="modalGi" class="portfolio-link-name"><i class="fa fa-eye portfolio-icon"></i><br>View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AzulSpa Moda -->
+        <div id="modalAzul" class="modal_area">
+          <!-- Modal Content -->
+          <div class="modal_content">
+            <span class="modal_close close-1 ">&times;</span>
+            <div class="modal_data">
+              <div class="col_modal">
+                    <img src="images/details1.jpg" alt="AzulSpa">
+              </div>
+                <div class="container-inside-modal">
+                  <span class="modal-logo"><img src="images/azul-modal-logo.png" alt="Azul Spa"></span>
+                    <div class="col_modal">
+                    <h1> AzulSpa</h1>
+                    <hr>
+                    <h4>Spa Point of Sale System</h4>
+                    <p>The <strong>Spa Point of Sale System</strong> is created to lessen the payment of subscription to their current used system and to have a fully control on the system.<br><br>The POS consist of collecting data, checking of the availability, inventory, reservation, restriction and produce automatic reports.</p>
+                    <h6 class="modal-about"><q>The client is already not using the website</q></h6>
+                    <h6><a href="#portfolio-area" class="modal-not">Visit Web Page</a></h6>
+                    </div>
+              </div>
+            </div>
+        </div>
+  </div>
+
+          <!-- Ecommerce Modal -->
+          <div id="modalEcom" class="modal_area">
+            <!-- Modal Content -->
+            <div class="modal_content">
+              <span class="modal_close close-2 ">&times;</span>
+              <div class="modal_data">
+                <div class="col_modal">
+                      <img src="images/details2.jpg" alt="AzulSpa">
+                </div>
+                  <div class="container-inside-modal">
+                    <span class="modal-logo"><img src="images/ecom-modal-logo.png" alt="Azul Spa"></span>
+                      <div class="col_modal">
+                      <h1> Cartoon Clothing</h1>
+                      <hr>
+                      <h4>Ecommerce Website</h4>
+                      <p>The website is an online market wherein the main product is shirt and sweatshirt with cartoon and animated design. The customer can choose several design from the catalogue that been provided in the website. The customers can pay through several choices provided in the website.</p>
+                      <h6 class="modal-about"><q>The purpose of the website is for college project only!</q></h6>
+                      <h6><a href="#portfolio-area" class="modal-not ">Visit Web Page</a></h6>
+                      </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+          <!-- Genshin Impact Modal -->
+          <div id="modalGi" class="modal_area">
+            <!-- Modal Content -->
+            <div class="modal_content">
+              <span class="modal_close close-3 ">&times;</span>
+              <div class="modal_data">
+                <div class="col_modal">
+                      <img src="images/details3.jpg" alt="AzulSpa">
+                </div>
+                  <div class="container-inside-modal">
+                    <span class="modal-logo"><img src="images/gi-modal-logo.png" alt="Azul Spa"></span>
+                      <div class="col_modal">
+                      <h1> Genshin Impact</h1>
+                      <hr>
+                      <h4>Homepage</h4>
+                      <p>The website is based on a game called Genshin Impact, Genshin Impact is a free-to-play action role-playing game developed and published by miHoYo.</p>
+                      <h6 class="modal-about"><q>The purpose of the website is for self project only!</q></h6>
+                      <h6><a href="http://ryancodizal.wordpress.com/" target="_blank" class="modal-alowed">Visit Web Page</a></h6>
+                      </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+      </section>
+
+      <!-- contact data -->
+      <section id="contact-area">
+        <h2>Contact me</h2>
+        <div class="container-inside">
+          <div class="col">
+            <div class="data-contact">
+            <div class="data" data-contact-hover="contact-1" data-aos="flip-up">
+            <a href="https://www.google.com/maps/@14.4738351,121.0564182,3a,75y,4.76h,79.1t/data=!3m6!1e1!3m4!1sm9ELza-N_MOtFumQL_TIPQ!2e0!7i13312!8i6656" target="_blank" >
+            <h5 id="contact-1"><i class="fa fa-home" ></i><br>Location</h5>
+            <p>Bagumbayan, Taguig City</p>
+            </a>
+            </div>
+            <div class="data" data-contact-hover="contact-2" data-aos="flip-up">
+            <a href="tel:(+63)927 875 1039" >
+            <h5 id="contact-2"><i class="fa fa-phone" ></i><br>Phone</h5>
+            <p>(+63)927 875 1039</p>
+            </a>
+            </div>
+            <div class="data" data-contact-hover="contact-3" data-aos="flip-up">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ry.codizal@gmail.com"target="_blank" >
+            <h5 id="contact-3"><i class="fa fa-envelope"></i><br>Gmail</h5>
+            <p >Ry.Codizal@gmail.com</p>
+            </a>
+            </div>
+            <div class="data" data-contact-hover="contact-4" data-aos="flip-up">
+            <a href="https://messenger.com/codizalry"target="_blank" >
+            <h5 id="contact-4"><i class="fa fa-comments-o"></i><br>Chat</h5>
+            <p>messenger.com/codizalry</p>
+            </a>
+            </div>
+           </div>
+          </div>
+          <div class="contact-data" data-aos="fade-zoom-in"  data-aos-delay="300"  data-aos-offset="5">
+            <div class="contact" >
+           </div>
+           <form class="contact-form" action="index1.html" method="POST">
+             <div class="write-us-detalis">
+               <h1>Write Us</h1>
+               <label for="fullname-input">Name</label>
+             <input type="text" name="fullName" placeholder="Full Name.." required>
+             <label for="fullname-input">Email Address</label>
+             <input type="email" name="emailAdd" placeholder="example@mail.com" required>
+            </div>
+            <div class="contact-message">
+              <label for="message-input">Write message</label>
+             <textarea name="textMessage" rows="20" cols="57" placeholder="Message.." required></textarea>
+             <button type="submit" class="btn">submit</button>
+           </div>
+           </form>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer-area">
+        <div class="container-footer">
+          <div class="col-footer">
+            <div class="footer-copy-right">
+              <p>&copy; 2020 RCcode. All right reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+        <script src="pl.js"></script>
+
+  </body>
+</html>
