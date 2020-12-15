@@ -23,11 +23,13 @@ body::-webkit-scrollbar-thumb {
 .container {
   width: 85%;
   margin: auto;
+
   overflow:hidden;
 }
 .container-inside {
   width: 78%;
   margin: auto;
+  overflow:hidden;
 }
 .container-footer {
   width: 65%;
@@ -123,9 +125,9 @@ min-height: 100vh;
 }
 .text-design img {
   position: absolute;
-  right : -100px;
-  bottom: -97px;
-  width: 52%;
+  right:50px;
+  bottom:0;
+  width: 34%;
   height: auto;
 }
 .text-design p {
@@ -216,7 +218,7 @@ min-height: 100vh;
   bottom:20px;
   font-size: 20px;
   left:10%;
-  animation: testcase 3s;
+  animation: bottomAnimate 3s;
 
 }
 .showcase-icon i {
@@ -230,7 +232,7 @@ min-height: 100vh;
   opacity: 1;
   animation: showcaseIcon 10s;
 }
-@keyframes testcase {
+@keyframes bottomAnimate {
   from {
     bottom:0;
   }
@@ -743,9 +745,8 @@ form textarea:focus {
   /*Showcase*/
   #portfolio-showcase img {
     position: absolute;
-    right : -100px;
-    bottom: -67px;
-    width: 480px;
+    width: 300px;
+    right: 0;
     height: auto;
   }
   .showcase-icon {
@@ -759,7 +760,7 @@ form textarea:focus {
   top:100px;
   }
   .text-design h4 {
-  bottom:57%;
+  bottom:350px;
   }
   .btn-download a {
   font-size: 0.68rem;
@@ -941,4 +942,10 @@ form textarea:focus {
     padding-bottom: 10px;
   }
 
+}
+
+@media screen and (max-width:480px) {
+  .text-design h4 {
+  bottom:380px;
+  }
 }
