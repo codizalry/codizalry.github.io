@@ -125,7 +125,7 @@ min-height: 100vh;
 .text-design img {
   position: absolute;
   right:50px;
-  bottom:0;
+  bottom:-1px;
   width: 33%;
   height: auto;
 }
