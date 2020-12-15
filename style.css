@@ -110,6 +110,7 @@ h5 {
 #portfolio-showcase{
 background-color: #0087db;
 min-height: 100vh;
+position: relative;
 }
 .portfolio-showcase-animate{
   animation:opac 0.8s
