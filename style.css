@@ -650,7 +650,9 @@ form textarea:focus {
 }
 .contact-message button:hover {
   background: #0076ca;
+  cursor:not-allowed;
 }
+
 .contact-message label {
   color:#fff;
    margin: 10px 0 0 10px;
@@ -1010,5 +1012,5 @@ form textarea:focus {
   }
 
   /*Global*/
-  
+
 }
