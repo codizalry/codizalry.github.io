@@ -743,7 +743,7 @@ form textarea:focus {
 
   /*Showcase*/
   .text-design img {
-    width: 30%;
+    width: 60%;
     height: auto;
     right: 0;
   }
@@ -948,6 +948,7 @@ form textarea:focus {
     width: 251px;
   }
   .text-design img {
-    bottom: 0;
+    bottom: -15px;
+
   }
 }
