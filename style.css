@@ -947,4 +947,7 @@ form textarea:focus {
   .about-icon{
   margin-left: 30px;
   }
+  .contact-message button {
+    width: 251px;
+  }
 }
