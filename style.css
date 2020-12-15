@@ -742,11 +742,10 @@ form textarea:focus {
   }
 
   /*Showcase*/
-  #portfolio-showcase img {
-    position: absolute;
-    width: 300px;
-    right: 0;
+  .text-design img {
+    width: 60%;
     height: auto;
+    right: 0;
   }
   .showcase-icon {
     bottom:5%;
@@ -941,9 +940,7 @@ form textarea:focus {
 }
 
 @media screen and (max-width:480px) {
-  .text-design h4 {
-  bottom:380px;
-  }
+
   .about-icon{
   margin-left: 30px;
   }
