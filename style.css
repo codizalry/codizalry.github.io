@@ -1008,4 +1008,9 @@ form textarea:focus {
   .contact-message button {
     width: 251px;
   }
+
+  /*Global*/
+  #portfolio-showcase, #about-area, #skills-area, #portfolio-area, #contact-area {
+    max-height: 80vh;
+  }
 }
