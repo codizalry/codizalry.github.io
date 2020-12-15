@@ -125,7 +125,7 @@ min-height: 100vh;
 .text-design img {
   position: absolute;
   right:50px;
-  bottom:-1px;
+  bottom:0;
   width: 33%;
   height: auto;
 }
@@ -475,7 +475,7 @@ figure {
 }
 .modal-logo img {
   float: left;
-  width: 50px;
+  width: 15%;
   height: auto;
   margin-top: 17px;
 }
@@ -506,7 +506,8 @@ figure {
 }
 .col_modal img {
   margin:0;
-  height: 350px;
+  width: 90%;
+  height: auto;
   border-radius: 10px 0 0 10px;
 }
 .col_modal h1 {
@@ -949,6 +950,51 @@ form textarea:focus {
   }
   .text-design img {
     bottom: -15px;
-
+  }
+  .col_modal img {
+    width: 90%;
+  }
+  .col_modal h1 {
+    margin:20px 20px 0px 0;
+    font-size: 0.55rem;
+  }
+  .col_modal h4{
+    margin: 10px 0;
+    font-size: 0.6rem;
+  }
+  .col_modal p {
+    text-align: justify;
+    font-size: 0.45rem;
+  }
+  .col_modal h6 {
+    margin-top: 10px;
+    font-size: 0.3rem;
+  }
+  .col_modal h6 a{
+    font-size:0.5rem;
+    background-color:#333;
+    padding:5px 10px;
+    border-radius:10px;
+    text-decoration:none;
+    color:#fff;
+  }
+  .modal-about {
+    font-style: italic;
+    color:#b4b4b4;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .portfolio-link{
+    color: #000;
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+  }
+  .portfolio-link-name{
+    font-size: 0.8rem;
+  }
+  .portfolio-icon {
+    margin-left: 1%;
+    font-size: 1.1rem;
   }
 }
