@@ -8,7 +8,6 @@ html {
 	--inv: #fff;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   width: 5px;
@@ -321,11 +320,11 @@ figure {
   color:#000;
 }
 .about-icon{
-    margin: 10px 0 0 70px;
+    margin: 10px 0 0 150px;
     display: inline-flex;
 }
 .about-icon-data {
-  margin-left: 100px;
+  margin-right: 80px;
   margin-bottom: 50px;
 }
 .about-icon-details{
@@ -760,7 +759,7 @@ form textarea:focus {
   top:100px;
   }
   .text-design h4 {
-  bottom:350px;
+  bottom:50%;
   }
   .btn-download a {
   font-size: 0.68rem;
@@ -788,7 +787,7 @@ form textarea:focus {
   margin: auto;
   }
   .about-icon{
-  margin-left: 10px;
+  margin-left: 80px;
   }
   .col-about img {
   margin-left: 23%;
@@ -801,8 +800,8 @@ form textarea:focus {
   }
   .about-icon-data {
     margin-bottom:0;
-    margin-left: 200%;
   }
+
 
   /*Skill*/
   .col-skill {
@@ -893,7 +892,7 @@ form textarea:focus {
     border:none;
   }
   .contact-message button {
-    width: 92.3%;
+    width: 356px;
     margin-left: -8px;
     margin-top: -26px;
     border-radius: 0 0 5px 5px;
@@ -920,9 +919,6 @@ form textarea:focus {
    }
 
   /*Global*/
-  body {
-    overflow-x: hidden;
-  }
   #about-area h2::after {
     width: 23%;
     left: 43.5%;
@@ -947,5 +943,8 @@ form textarea:focus {
 @media screen and (max-width:480px) {
   .text-design h4 {
   bottom:380px;
+  }
+  .about-icon{
+  margin-left: 30px;
   }
 }
