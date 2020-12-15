@@ -1010,7 +1010,5 @@ form textarea:focus {
   }
 
   /*Global*/
-  #portfolio-showcase, #about-area, #skills-area, #portfolio-area, #contact-area {
-    max-height: 80vh;
-  }
+  
 }
